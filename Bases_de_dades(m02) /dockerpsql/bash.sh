@@ -1,10 +1,8 @@
 #!/bin/bash
 
 # Entramos a la ruta correcta
-cd /home/users/inf/hisx1/a241482bb/Desktop/dockerpsql
-
-
-# Comprobación de dependencias
+cd /home/users/inf/hisx1/a241482bb/edt/Bases_de_dades(m02)
+#Comprobación de dependencias
 if ! command -v docker &>/dev/null; then
     echo "Docker no está instalado o no está en el PATH. Por favor, instala Docker antes de continuar."
     exit 1
