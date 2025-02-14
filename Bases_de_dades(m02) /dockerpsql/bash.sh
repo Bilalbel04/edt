@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Entramos a la ruta correcta
-cd /home/users/inf/hisx1/a241482bb/edt/Bases_de_dades(m02)/bash.sh
+cd /home/users/inf/hisx1/a241482bb/edt/Bases_de_dades(m02)
 
 #Comprobación de dependencias
 if ! command -v docker &>/dev/null; then
