@@ -1,7 +1,6 @@
-Aquí tens uns apunts organitzats per estudiar el temari sobre sistemes gestors de bases de dades (SGBD), basats en les fonts proporcionades:
+Aquí tens uns apunts organitzats per estudiar el temari sobre sistemes gestors de bases de dades (SGBD)
 
 **Tema 1: Introducció als Sistemes Gestors de Bases de Dades**
-
 *   **Definicions bàsiques**:
     *   **Dada:** Fets, esdeveniments o transaccions emmagatzemades.
     *   **Informació:** Dades processades i comunicades de manera entenedora.
