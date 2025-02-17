@@ -24,7 +24,7 @@
     echo "El numero $n es un numero negativo";
    }
    elseif ($n > 0 ){
-     echo "Esto es un numero positivo";
+     echo "El numero $n es un numero positivo";
     }
     else {
      echo "Esto es un numero zero";
