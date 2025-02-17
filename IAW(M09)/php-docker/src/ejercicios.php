@@ -40,8 +40,9 @@
   $IVA = 0.21;
   $descuento = 0.05;
   $aplica_descuento = 300;
+
   $precio_total = $preu * $unidades;
-  echo "$precio_total";
+  echo "El Precio sin iva es $precio_total";
   ?>
 
   </body>
