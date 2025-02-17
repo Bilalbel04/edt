@@ -1,21 +1,14 @@
-A1/4 estan explicats els sist. de particions? 	
-
 A3/1 Descriu i comprova tipus d’apagada SO lliure i propietari 	
-
-
 A3/3 Comprova elements i fitxers d'inici SO 	
 
-A4/2 Actualitza amb comandes Windows 	
-
+A4/2 Actualitza amb comandes Windows 	-> Adjuntar captura
 A4/3 Actualitza Linux/Windows amb I.G. 	
 
 
 A4/5 Sap arribar a les polítiques i plantilles administratives 	
-
 A4/6 Ha fet cerca sobre WSUS, Intune, Dell-Lenovo-altres fabricants 	
 
 A5/1 Comprova els 3 tipus d’events segons apagada (inesperada, planificada, ACPI) 	
-
 A5/2 comprova estat sistema amb temps real LINUX amb top, mtop, tail -f 	
 
 A5/3 comprova estat sistema amb temps real Windows amb perfmon.msc /s, perfmon.exe /res, crtl+shit+esc 	
@@ -34,11 +27,7 @@ A6/4 Mostra com desinstalar un aplicatiu ambdos sistemes.
 A6/5 Opcional: Sap afegir un repositori al SO.
 
 A6/6 justifica que sap buscar requeriments d’aplicatius 	
--
-2 points
-	
--
-0 points
+
 A7/1 Justifica que sap mostrar el llistat de dispositius a Linux/Windows 	
 -
 2 points
