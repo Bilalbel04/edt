@@ -37,7 +37,8 @@
   <?php
   $preu = 500;
   $unidades = 4;
-  
+  $IVA = 0.21;
+  $descuento = 0.05;
   
   ?>
 
