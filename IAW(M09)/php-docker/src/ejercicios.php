@@ -2,7 +2,7 @@
 <html lang="ca-ES">
   <head>
     <meta charset="utf-8"/>
-    <title>Bilal Tabla de multiplicar php clase 1</title> 
+    <title>👶 Exercicis curts d'estructures condicionals</title> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
   </head>
