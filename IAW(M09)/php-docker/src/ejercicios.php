@@ -23,7 +23,7 @@
    if ($n < 0 ) {
     echo "Esto es un numero negativo";
    }
-   elseif (){
+   elseif ($n > 0 ){
      echo "Esto es un numero positivo";
     }
    ?>
