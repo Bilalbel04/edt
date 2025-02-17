@@ -19,7 +19,7 @@
    ?>
    <h4>Programa semblant a l'anterior, però que dirà si la variable és positiva, negativa o zero</h4>
    <?php
-   $n = -0;
+   $n = 0;
    if ($n < -5 ) {
     echo "Esto es un numero nevatigo";
    }
