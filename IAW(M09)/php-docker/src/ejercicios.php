@@ -17,7 +17,6 @@
       echo "$n no és major que zero";
      }
    ?>
-
-
+   <h4>Programa semblant a l'anterior, però que dirà si la variable és positiva, negativa o zero</h4>
   </body>
 </html>
