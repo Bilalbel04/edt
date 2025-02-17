@@ -27,7 +27,7 @@
      echo "Esto es un numero positivo";
     }
     else {
-     echo "Esto es un numero 0";
+     echo "Esto es un numero zero";
     }
    ?>
   </body>
