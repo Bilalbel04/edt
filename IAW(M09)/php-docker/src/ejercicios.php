@@ -30,6 +30,9 @@
      echo "Esto es un numero zero";
     }
    ?>
-   <h4>A partir del preu recollit a una variable, i el número d'unitats en una altra, el programa et dirà: preu amb IVA </h4>
+   <h4>A partir del preu recollit a una variable, i el número d'unitats en una altra, el programa et dirà: preu amb IVA (21%) i si cal, preu amb descompte. El descompte (5%) s'aplica si el total resultant és major que 300€.  </h4>
+   <h5>
+
+   </h5>
   </body>
 </html>
