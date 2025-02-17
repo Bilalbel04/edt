@@ -8,30 +8,6 @@
   </head>
   <body>
     <h1>Ejercicios PHP</h1>
-    <table>
-      <thead>
-          <tr>
-            <th>x</th>
-              <?php
-                for ($a = 1; $a <= 10; $a++) {
-                    echo "<th>$a</th>";
-                  }
-              ?>
-          </tr>
-        </thead>
-        <tbody>
-          <?php
-            for ($a = 1; $a <= 10; $a++) {
-              echo "<tr>";
-                echo "<th>$a</th>";
-                  for ($b = 1; $b <= 10; $b++) {
-                    $r = $a * $b;
-                      echo "<td>$r</td>";
-                    }
-                  echo "</tr>";
-              }
-            ?>
-        </tbody>
-      </table>
+   
   </body>
 </html>
