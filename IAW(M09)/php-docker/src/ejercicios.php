@@ -30,6 +30,6 @@
      echo "Esto es un numero zero";
     }
    ?>
-   <h4></h4>
+   <h4>A partir del preu recollit a una variable, i el número d'unitats en una altra, el programa et dirà: preu amb IVA </h4>
   </body>
 </html>
