@@ -35,6 +35,8 @@
    <h5> Exemple: "Tinc 5 unitats de preu 30,4€. Això són 152€ sense IVA. Serien 183,92€ amb IVA i no té descompte". </h5>
    <h5> Exemple 2: "Tinc 10 unitats de preu 30,4€. Això són 304€ sense IVA. Serien 367,84€ amb IVA i amb descompte, quedaria per 349,448€"</h5>
   <?php
+  $preu = 500;
+  $unidades = 4;
   
   
   ?>
