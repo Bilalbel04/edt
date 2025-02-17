@@ -10,7 +10,6 @@ A4/6 Ha fet cerca sobre WSUS, Intune, Dell-Lenovo-altres fabricants
 
 A5/1 Comprova els 3 tipus d’events segons apagada (inesperada, planificada, ACPI) 	
 A5/2 comprova estat sistema amb temps real LINUX amb top, mtop, tail -f 	
-
 A5/3 comprova estat sistema amb temps real Windows amb perfmon.msc /s, perfmon.exe /res, crtl+shit+esc 	
 
 A5/5 Activa auditoria Windows, genera events, els verifica i detecta en el visor d’events 	
