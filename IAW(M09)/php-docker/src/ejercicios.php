@@ -43,6 +43,8 @@
 
   $precio_total = $preu * $unidades;
   echo "El Precio sin iva es $precio_total";
+  
+  
   ?>
 
   </body>
