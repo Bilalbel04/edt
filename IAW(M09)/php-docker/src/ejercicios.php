@@ -10,6 +10,7 @@
     <h1>Ejercicios PHP</h1>
     <h4>Programa que comprova si una variable és major que zero o no. $n=-23 → dirà "-23 no és major que zero"</h4>
     <?php
-    />
+    
+    ?>
   </body>
 </html>
