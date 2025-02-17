@@ -21,7 +21,7 @@
    <?php
    $n = -4;
    if ($n < 0 ) {
-    echo "<p>El numero $n es un numero negativo</p>";
+    echo <"El numero $n es un numero negativo</p>";
    }
    elseif ($n > 0 ){
      echo "Esto es un numero positivo";
