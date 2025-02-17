@@ -39,7 +39,8 @@
   $unidades = 4;
   $IVA = 0.21;
   $descuento = 0.05;
-  
+  $aplica_descuento = 300;
+    
   ?>
 
   </body>
