@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
-    <h1>Tabla de multiplicar 1 al 10</h1>
+    <h1>Ejercicios PHP</h1>
     <table>
       <thead>
           <tr>
