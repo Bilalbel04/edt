@@ -30,10 +30,4 @@ A6/6 justifica que sap buscar requeriments d’aplicatius	 ---------------------
 
 A7/1 Justifica que sap mostrar el llistat de dispositius a Linux/Windows	------------------------------------------------------------------------------------ OK
 A7/2 En justifica com canviar un driver a Windows.	---------------------------------------------------------------------------------------------------------- OK
-A7/3 Justifica com canviar un mòdul de driver a Linux. ------------------------------------------------------------------------------------------------ PENDIENTE
-
-
-Primero identificaremos el dispositivo y el modulo actual. En mi caso sera de Ethernet
-lspci -k | grep -A 3 'Ethernet'
-
-Observaremos que pone Kernel driver in use: xxxxxx (numero identificativo)
+A7/3 Justifica com canviar un mòdul de driver a Linux. ----------------------------------------------------------------------------------------------------- OK
