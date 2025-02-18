@@ -1,0 +1,33 @@
+A1/1 instal·la tots els SO en vBOX i ISARD	-------------------------------------------------------------------------------------------------------------------- OK
+A1/2 Estan justificats requisits mínims/dessitjables/virtuals	------------------------------------------------------------------------------------------------ OK
+A1/3 dos xarxes per VM i explicat perquè i ben implementat	---------------------------------------------------------------------------------------------------- OK
+A1/4 estan explicats els sist. de particions?	---------------------------------------------------------------------------------------------------------------- OK
+
+A2/1 Feta la taula amb llicències, arquitectura SO, Kernels, tipus SO, tipus Apps	 --------------------------------------------------------------------------- OK
+A3/1 Descriu i comprova tipus d’apagada SO lliure i propietari	---------------------------------------------------------------------------------------- NO ENTENDI
+A3/2 Recupera claus root/admin Linux Windows	---------------------------------------------------------------------------------------------------------------- OK
+A3/3 Comprova elements i fitxers d inici SO	------------------------------------------------------------------------------------------------------------ NO ENTENDI
+
+A4/1 Actualitza amb comandes Linux (apt, apt-get, dpkg, make)	------------------------------------------------------------------------------------------------ OK
+A4/2 Actualitza amb comandes Windows	------------------------------------------------------------------------------------------------------------------------ OK
+A4/3 Actualitza Linux/Windows amb I.G.	------------------------------------------------------------------------------------------------------------------------ OK
+A4/4 Sap deshabilitar serveis d’actualització en Windows	---------------------------------------------------------------------------------------------------- OK
+A4/5 Sap arribar a les polítiques i plantilles administratives	---------------------------------------------------------------------------------------- NO ENTENDI
+A4/6 Ha fet cerca sobre WSUS, Intune, Dell-Lenovo-altres fabricants	-------------------------------------------------------------------------------------------- OK
+
+A5/1 Comprova els 3 tipus d’events segons apagada (inesperada, planificada, ACPI)	---------------------------------------------------------------------------- OK
+A5/2 comprova estat sistema amb temps real LINUX amb 	-------------------------------------------------------------------------------------------------------- OK
+A5/3 comprova estat sistema amb temps real Windows amb perfmon.msc /s, perfmon.exe /res, crtl+shit+esc	-------------------------------------------------------- OK
+A5/4 Opcional: Grafana instal·la i configura, funciona i monitoritza	----------------------------------------------------- OPCIONAL. EN MI CASO NO LO VOY A REALIZAR
+A5/5 Activa auditoria Windows, genera events, els verifica i detecta en el visor d’events	-------------------------------------------------------------------- OK
+
+A6/1 Ha Instal·lat un aplicatiu a ms-store i ubuntu software	------------------------------------------------------------------------------------------------ OK
+A6/2 Justifica que sap actualitzar les apps gestionades a ms-store & ubuntu software	------------------------------------------------------------------------ OK
+A6/3 Justifica com Instal·lar des de apt i tambe un executable descarregant a windows.	------------------------------------------------------------------------ OK
+A6/4 Mostra com desinstalar un aplicatiu ambdos sistemes.	---------------------------------------------------------------------------------------------------- OK
+A6/5 Opcional: Sap afegir un repositori al SO.	------------------------------------------------------------------------- OPCIONAL. EN MI CASO NO LO VOY A REALIZAR
+A6/6 justifica que sap buscar requeriments d’aplicatius	 ------------------------------------------------------------------------------------------------ PENDIENTE
+
+A7/1 Justifica que sap mostrar el llistat de dispositius a Linux/Windows	------------------------------------------------------------------------------------ OK
+A7/2 En justifica com canviar un driver a Windows.	------------------------------------------------------------------------------------------------------------ OK
+A7/3 Justifica com canviar un mòdul de driver a Linux. -------------------------------------------------------------------------------------------------- PENDIENTE
