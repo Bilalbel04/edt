@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<indexing>
+ <object alt="" name="image12.png" object_type="graphic"/>
+ <object alt="" name="image4.png" object_type="graphic"/>
+ <object alt="" name="image10.png" object_type="graphic"/>
+ <object alt="" name="image3.png" object_type="graphic"/>
+ <object alt="" name="image13.png" object_type="graphic"/>
+ <object alt="" name="image9.png" object_type="graphic"/>
+ <object alt="" name="image11.png" object_type="graphic"/>
+ <object alt="" name="image6.png" object_type="graphic"/>
+ <object alt="" name="image8.png" object_type="graphic"/>
+ <object alt="" name="image7.png" object_type="graphic"/>
+ <object alt="" name="image2.png" object_type="graphic"/>
+ <object alt="" name="image5.png" object_type="graphic"/>
+ <object alt="" name="image1.png" object_type="graphic"/>
+ <paragraph index="45" node_type="writer">/</paragraph>
+ <paragraph index="54" node_type="writer">Ac3.5. Repàs de teoría del switch</paragraph>
+ <paragraph index="68" node_type="writer">Bilal Balghouch El Gourari</paragraph>
+ <paragraph index="69" node_type="writer">Ac3.5. Repàs de teoria del switch</paragraph>
+ <paragraph index="70" node_type="writer">2024-25</paragraph>
+ <paragraph index="73" node_type="writer">1. En aquest exercici treballarem la comanda “arp” (Windows) o &quot;ip neighbour&quot; (Linux). Respon a les següents preguntes:</paragraph>
+ <paragraph index="74" node_type="writer">a) Què mostra la comanda “arp”? Prova a executar-la i analitza els resultats</paragraph>
+ <paragraph index="75" node_type="writer">La comanda arp (Address Resolution Protocol) s'utilitza per veure i gestionar la taula ARP del sistema, que mapeja adreces IP a adreces MAC en una xarxa local.</paragraph>
+ <paragraph index="78" node_type="writer">b) Fes ara un ping a dos companys de xarxa. Què ha canviat del resultat de la comanda arp? Per què ha canviat?</paragraph>
+ <paragraph index="79" node_type="writer">Si, ja que es una taula amb ip’s en una xarxa local. Ara surt la MAC del equip al que li hem fet el ping.</paragraph>
+ <paragraph index="83" node_type="writer">c)  Fes ara un ping a una IP d'una altra xarxa diferent de la teva. Ha canviat el resultat de la comanda “arp”? Justifica el resultat.</paragraph>
+ <paragraph index="84" node_type="writer">No, ja que son taulas de xarxas locals.</paragraph>
+ <paragraph index="86" node_type="writer"> </paragraph>
+ <paragraph index="88" node_type="writer">2. Al Packet Tracer, crea un petit diagrama de xarxa de quatre ordinadors interconnectats per un hub. Assigna als ordinadors les IP que creguis convenients, però que permetin que es puguin fer “PING” entre ells.</paragraph>
+ <paragraph index="91" node_type="writer">a) Selecciona dos parells d’ordinadors i comprova que es poden fer PING entre ells (per exemple, PC0 amb PC1 i PC2 amb PC3).</paragraph>
+ <paragraph index="92" node_type="writer">La conexión es correcta.</paragraph>
+ <paragraph index="95" node_type="writer">b) Fes una simulació on, a l’instant 0, el PC0 es comuniqui amb el PC1 i el PC2 amb el PC3. Digues quin és el resultat de la simulació i el motiu pel que això succeeix.</paragraph>
+ <paragraph index="97" node_type="writer">No habrá conexión entre los equipos ya que el hub no cuenta con la segmentación de los dominios de colección</paragraph>
+ <paragraph index="100" node_type="writer">c) Cerca per internet el preu d’un hub de gamma baixa. Quina conclusió en treus, de la cerca?</paragraph>
+ <paragraph index="101" node_type="writer">Es un dispositivo muy poco util, que pierde mucho el tiempo tanto como en redes pequeñas como en grandes. El precio está rondando sobre los 10/25€ </paragraph>
+ <paragraph index="103" node_type="writer">3. Copia el diagrama anterior, i substitueix el hub per un switch.</paragraph>
+ <paragraph index="105" node_type="writer">a) Selecciona dos parells d’ordinadors i comprova que es poden fer PING entre ells (per exemple, PC0 amb PC1 i PC2 amb PC3).</paragraph>
+ <paragraph index="110" node_type="writer">b) Repeteix la simulació anterior. Quin és el resultat ara?</paragraph>
+ <paragraph index="114" node_type="writer">c) A nivell de hardware i de xarxes, quines tasques realitza un switch que no faci un hub? Sigues el màxim d’acurat, precís i tècnic amb el llenguatge. Utilitza els conceptes que hem vist a classe per explicar-ho.</paragraph>
+ <paragraph index="116" node_type="writer">Un switch divideix els dominis de col·lisió, cosa que permet que els dispositius de la xarxa puguin enviar paquets al mateix temps sense interferències. Això és possible perquè el switch crea una connexió directa entre l'emissor i el receptor per a cada paquet, evitant que es produeixin col·lisions. En canvi, en una xarxa amb un hub, si diversos dispositius intenten enviar paquets al mateix temps, poden produir-se col·lisions o es crea una cua d'espera, fent que els paquets es transmetin d'un en un, la qual cosa pot provocar retards.</paragraph>
+ <paragraph index="118" node_type="writer">4. En relació als exercicis anterior, digues:</paragraph>
+ <paragraph index="119" node_type="writer">a) Què és un domini de col·lisió i com es poden dividir?</paragraph>
+ <paragraph index="120" node_type="writer">Es la connexió que té un dispositiu intermediari a un host. Pot dividir en dispositius connectats a cada port. Un ordinador connectat directament a un switch es un domini de col·lisió, o un hub amb 4 ordinadors connectats també a un switch, seria un domini de col·lisió.</paragraph>
+ <paragraph index="121" node_type="writer">b) Què és un domini de difusió i com es poden dividir?</paragraph>
+ <paragraph index="122" node_type="writer">Es la part d’una xarxa que seria afectada al enviar paquets o interactuar amb la IP de broadcast, per exemple, dos switches amb 3 ordinadors connectats cadascun amb un router en el mig que els connecta entre ells, cada xarxa connectada al switch seria un domini de difusió</paragraph>
+ <paragraph index="124" node_type="writer">5. Partint del fitxer de Packet Tracer que teniu adjunt en aquesta activitat, utilitzareu l'ordre show mac-address-table per veure quines són les taules ARP dels switchos en diferents situacions. Per poder executar aquesta ordre des de la Command Line Interface (CLI), és probable que hagis d'executar l'ordre enable, per passar de mode User a mode Privileged.</paragraph>
+ <paragraph index="125" node_type="writer">No és necessari.</paragraph>
+ <paragraph index="128" node_type="writer"> </paragraph>
+ <paragraph index="129" node_type="writer">a) A l'inici, quines són les taules ARP dels switchos?</paragraph>
+ <paragraph index="130" node_type="writer">Switch0 està buida. Swich1 te la mac del Switch0</paragraph>
+ <paragraph index="131" node_type="writer">b) Feu un ping del PC0 al PC1. Quines són ara les taules d'enrutament? Com han canviat i per què ho han fet d'aquesta manera?</paragraph>
+ <paragraph index="132" node_type="writer">Se han afeguit les MACs del PC0 i PC1.</paragraph>
+ <paragraph index="133" node_type="writer">c) Feu un ping del PC0 al PC3. Quines són ara les taules d'enrutament? Com han canviat i per què ho han fet d'aquesta manera?</paragraph>
+ <paragraph index="135" node_type="writer">Els dos switches tenen les MACs dels equips implicats al ping. També les Macs dels switches. </paragraph>
+ <paragraph index="138" node_type="writer">6. Digues, respecte el diagrama següent:</paragraph>
+ <paragraph index="139" node_type="writer">  </paragraph>
+ <paragraph index="140" node_type="writer">a) Quants dominis de col·lisió hi ha? Quins PC formen part de cada domini de col·lisió?</paragraph>
+ <paragraph index="141" node_type="writer">7 dominis de col·lisió, implica al hub i la seva xarxa Pc4-pc5-hub0. També per cada port connectat.</paragraph>
+ <paragraph index="142" node_type="writer">b) Quants dominis de difusió hi ha? Quins PC formen part de cada domini de difusió?</paragraph>
+ <paragraph index="143" node_type="writer">3. Una per la xarxa del switch0, la seguna per el switch1 i la tercera per la xarxa del hub0</paragraph>
+</indexing>
