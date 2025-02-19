@@ -1,6 +1,7 @@
-/* Mostra dels representants el seu nom, la ciutat de la seva oficina, així 
-com la seva regió. */
-
+/* Mostra dels representants el seu nom, la ciutat de la
+ seva oficina, així com la seva regió. */
+SELECT nombre.repventa, ciudad.oficina, region.oficina
+FROM repventa JOIN oficina ON repcod.repventa=ofinum.oficina;
 
 /* Obtenir una llista de totes les comandes, mostrant el número de
 comanda, el seu import, el nom del client que el va fer i el límit
