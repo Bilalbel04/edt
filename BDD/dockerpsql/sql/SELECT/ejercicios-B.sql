@@ -1,4 +1,5 @@
-/* Mostra dels representants el seu nom, la ciutat de la seva oficina, així com la seva regió. */
+/* Mostra dels representants el seu nom, la ciutat de la seva oficina, així 
+com la seva regió. */
 
 
 /* Obtenir una llista de totes les comandes, mostrant el número de
