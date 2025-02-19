@@ -46,5 +46,3 @@ WHERE EXTRACT(YEAR FROM fcontrato) = 2003;
 /* 10. Mostrar el nom i els dies que porta contractats els representants */
 SELECT nombre, CURRENT_DATE - fcontrato
 FROM repventa;
-
-SD
