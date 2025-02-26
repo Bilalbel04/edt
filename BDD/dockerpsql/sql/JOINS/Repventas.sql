@@ -59,7 +59,7 @@ where cuota >= objetivo;
 /* 13. Mostra el nom, les vendes i la ciutat de l'oficina de cada 
 representant de lempresa.*/
 SELECT nombre, ventas, ciudad
-FROM repventa r left join oficina o on r.ofinum = o.ofinum = v on v.oficina;
+FROM repventa r left join oficina o on r.ofinum = o.ofinum;
 
 /* 14. Obtenir una llista de la descripció dels productes per als quals existeix alguna comanda en què se sol·licita una quantitat més gran a les existències 
 del producte.*/
