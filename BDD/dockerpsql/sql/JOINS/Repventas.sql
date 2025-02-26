@@ -47,7 +47,7 @@ el nom del representant que va contactar amb ell per primera vegada i la ciutat 
 /* 10. Obtenir una llista de totes les comandes preses per representants de oficines de la regió Est, mostrant només el número del comanda, la descripció del 
 producte i el nom del representant que ho va prendre*/
 
-/* 11. Obtenir les comandes preses els mateixos dies en què un nou representant va ser contractat. Mostrar número de comanda, import, data comanda.
+/* 11. Obtenir les comandes preses els mateixos dies en què un nou representant va ser contractat. Mostrar número de comanda, import, data comanda.*/
 
 /* 12. Obtenir una llista amb parelles de representants i oficines on la quota del representant és més gran o igual que l'objectiu de la oficina, 
 sigui o no l'oficina on treballa. Mostra Nom del representant, quota del mateix, Ciutat de l'oficina, objectiu de la mateixa.*/
