@@ -26,7 +26,7 @@
 
 /* 3. Obtenir una llista de representants ordenada alfabèticament, en què es mostri el nom del representant, codi de la oficina on treballa, ciutat i la regió on ven.*/
 
-/* 4. Obtenir una llista de les oficines (ciutats, no codis) que tenen un objectiu superior a 360.000 euros. Per a cada oficina mostrar la ciutat, el seu objectiu, 
+/* 4. Obtenir una llista de les oficines (ciutats, no codis) que tenen un objectiu superior a 360.000 euros. Per a cada oficina mostrar la ciutat, el seu objectiu, */
 el nom del director i lloc del mateix.*/
 
 /* 5. Obtenir una llista de totes les comandes mostrant el seu número, el import i la descripció dels productes sol·licitats.*/
