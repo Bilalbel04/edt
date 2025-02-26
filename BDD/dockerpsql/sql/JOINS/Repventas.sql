@@ -75,7 +75,7 @@ WHERE p.cant > pr.exist;
 SELECT r.nombre
 FROM repventa r
 JOIN repventa jefe ON r.jefe = jefe.repcod
-WHERE r.cuota > jefe.cuota;--
+WHERE r.cuota > jefe.cuota;
 
 /* 16. Obtenir una llista dels representants que treballen en una oficina diferent de l'oficina on treballa el seu director, mostrant també el nom del director 
 i el codi de l'oficina on treballa cadascun.*/
