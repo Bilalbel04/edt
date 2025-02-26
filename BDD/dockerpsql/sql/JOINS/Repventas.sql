@@ -83,6 +83,10 @@ WHERE r.cuota > jefe.cuota;
 
 /* 16. Obtenir una llista dels representants que treballen en una oficina diferent de l'oficina on treballa el seu director, mostrant també el nom del director 
 i el codi de l'oficina on treballa cadascun.*/
+SELECT r.nombre AS representante, jefe.nombre AS director, r.ofinum AS oficina_rep, jefe.ofinum AS oficina_jefe
+FROM repventa r
+JOIN repventa jefe ON r.jefe = jefe.repcod
+WHERE r.ofinum <> jefe.ofinum;
 
 /* 17. El mateix exercici anterior, però en comptes d'ofinum, la ciutat.*/
 
