@@ -97,3 +97,6 @@ JOIN oficina o_jefe ON jefe.ofinum = o_jefe.ofinum
 WHERE r.ofinum <> jefe.ofinum;
 
 /* 18. Mostrar el nom i el lloc de què són cap.*/
+SELECT DISTINCT jefe.nombre, jefe.puesto
+FROM repventa jefe
+JOIN repventa r ON jefe.repcod = r.jefe;
