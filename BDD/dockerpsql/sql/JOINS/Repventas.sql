@@ -89,5 +89,11 @@ JOIN repventa jefe ON r.jefe = jefe.repcod
 WHERE r.ofinum <> jefe.ofinum;
 
 /* 17. El mateix exercici anterior, però en comptes d'ofinum, la ciutat.*/
+SELECT r.nombre AS representante, jefe.nombre AS director, o_rep.ciudad AS ciudad_rep, o_jefe.ciudad AS ciudad_jefe
+FROM repventa r
+JOIN repventa jefe ON r.jefe = jefe.repcod
+JOIN oficina o_rep ON r.ofinum = o_rep.ofinum
+JOIN oficina o_jefe ON jefe.ofinum = o_jefe.ofinum
+WHERE r.ofinum <> jefe.ofinum;
 
 /* 18. Mostrar el nom i el lloc de què són cap.*/
