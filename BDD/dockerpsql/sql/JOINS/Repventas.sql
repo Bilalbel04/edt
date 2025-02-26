@@ -56,7 +56,7 @@ FROM repventa
 cross join oficina
 where cuota >= objetivo;
 
-/* 13. Mostra el nom, les vendes i la ciutat de l'oficina de cada 
+/* 13. Mostra el nom, les vendes i la ciutat de l'oficina de cada */
 representant de lempresa.
 
 /* 14. Obtenir una llista de la descripció dels productes per als quals existeix alguna comanda en què se sol·licita una quantitat més gran a les existències 
