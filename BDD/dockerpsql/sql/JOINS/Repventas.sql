@@ -71,7 +71,7 @@ r left join oficina o on r.ofinum = o.ofinum;
 quals existeix alguna comanda en què se sol·licita una quantitat més gran 
 a les existències del producte.*/
 SELECT descrip 
-FROM producto
+FROM producto pr
 JOIN pedido p ON p.prodcod = pr.prodcod AND p.fabcod = pr.fabcod
 WHERE p.cant > pr.exist;
 
