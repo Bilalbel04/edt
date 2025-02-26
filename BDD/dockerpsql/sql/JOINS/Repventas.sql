@@ -58,7 +58,10 @@ where cuota >= objetivo;
 
 /* 13. Mostra el nom, les vendes i la ciutat de l'oficina de cada 
 representant de lempresa.*/
-SELECT * FROM repventa 
+SELECT nombre "Representante", ciudad r.ventas from 
+repventas r left join oficina o on r.ofinum = o.ofinum
+
+SELECT * FROM repventa
 SELECT nombre, ventas, ciudad
 r left join oficina o on r.ofinum = o.ofinum;
 
