@@ -67,8 +67,11 @@ SELECT * FROM repventa
 SELECT nombre, ventas, ciudad
 r left join oficina o on r.ofinum = o.ofinum;
 
-/* 14. Obtenir una llista de la descripció dels productes per als quals existeix alguna comanda en què se sol·licita una quantitat més gran a les existències 
+/* 14. Obtenir una llista de la descripció dels productes per als 
+quals existeix alguna comanda en què se sol·licita una quantitat més 
+gran a les existències 
 del producte.*/
+
 
 /* 15. Llista els noms dels representants que tenen una quota superior a la del director.*/
 
