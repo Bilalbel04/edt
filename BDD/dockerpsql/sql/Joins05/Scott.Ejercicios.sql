@@ -84,3 +84,9 @@ creeu la seqüència deptno_seq (la qual començarà en 50 i s'incrementarà de
 
 INSERT INTO dept VALUES (nextval('deptno_seq'), 'CONSULTORIA', 'SANTANDER');
 
+/* Donar d'alta a un nou empleat de nom Andreu, que exercirà el lloc de 
+analyst en el departament 30 i el seu cap serà l'empleat 8200. 
+De moment es desconeixen els altres valors dels camps. */
+
+INSERT INTO emp VALUES 
+(nextval('empno_seq'), 'Andreu', 'ANALYST', 8200, NULL, NULL, NULL, 30);
