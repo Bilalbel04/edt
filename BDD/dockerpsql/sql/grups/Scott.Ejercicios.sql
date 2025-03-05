@@ -108,5 +108,3 @@ puede tener nuls */
 
 SELECT COUNT(comm) "Nombre empleados con comisión", AVG(comm) "Media comisión"
   FROM emp;
-
-  
