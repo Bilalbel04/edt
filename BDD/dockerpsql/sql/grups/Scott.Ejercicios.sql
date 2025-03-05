@@ -102,3 +102,11 @@ INSERT INTO emp VALUES
 SELECT SUM(sal) "Salari total mensual"
   FROM emp;
 
+/* 2. Calcular el nombre de empleados que tienen comission i la media.
+Mostrar todos los empleados de manera que pertenecen en vez del campo comm
+puede tener nuls */
+
+SELECT COUNT(comm) "Nombre empleados con comisión", AVG(comm) "Media comisión"
+  FROM emp;
+
+  
