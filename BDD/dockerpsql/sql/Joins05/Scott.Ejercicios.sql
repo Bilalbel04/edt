@@ -1,12 +1,3 @@
-/*
-script name: tablasScott.sql
-     author: Jordi Andúgar
-       date: 20/01/2022
-    version: 1.0
-       DBMS: PostgreSQL server
-description: operations updating and deleting restricted by default
-*/
-
 \c template1
 DROP DATABASE IF EXISTS scott;
 CREATE DATABASE scott;
