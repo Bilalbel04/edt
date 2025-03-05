@@ -92,3 +92,5 @@ De moment es desconeixen els altres valors dels camps. */
 INSERT INTO emp VALUES 
 (nextval('empno_seq'), 'Andreu', 'ANALYST', 8200, NULL, NULL, NULL, 30);
 
+/* Canviar la data de l'empleat SCOTT per la d'avui. */
+
