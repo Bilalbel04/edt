@@ -97,14 +97,20 @@ INSERT INTO emp VALUES
 
 /* Funciones de grupo */
 
-/* 1. Calcula el salari total mensual */
+/* 41. Calcula el salari total mensual */
 
 SELECT SUM(sal) "Salari total mensual"
   FROM emp;
 
-/* 2. Calcular el nombre de empleados que tienen comission i la media.
+/* 42. Calcular el nombre de empleados que tienen comission i la media.
 Mostrar todos los empleados de manera que pertenecen en vez del campo comm
 puede tener nuls */
 
 SELECT COUNT(comm) "Nombre empleados con comisión", AVG(comm) "Media comisión"
   FROM emp;
+
+/* 43. Mostreu el salari, mínim i màxim dels empleats, agrupats per ocupació. */
+
+SELECT job "Ocupació", MIN(sal) "SAL MIN", MAX(sal) "SAL MAX"
+  FROM emp
+ GROUP BY 
