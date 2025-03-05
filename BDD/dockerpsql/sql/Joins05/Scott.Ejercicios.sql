@@ -76,6 +76,7 @@ INSERT INTO salgrade VALUES
 ALTER TABLE  emp ADD CONSTRAINT emp_deptno_fk FOREIGN KEY (deptno) REFERENCES dept;
 ALTER TABLE  emp ADD CONSTRAINT emp_mgr_fk FOREIGN KEY (mgr) REFERENCES emp;
 
+/* DML */
 
 /* Inserir en la taula DEPT la informació corresponent a un nou departament 
 de consultoria, de codi 50 i que estigui ubicat a SANTANDER. Per a l'ocasió 
@@ -90,3 +91,4 @@ De moment es desconeixen els altres valors dels camps. */
 
 INSERT INTO emp VALUES 
 (nextval('empno_seq'), 'Andreu', 'ANALYST', 8200, NULL, NULL, NULL, 30);
+
