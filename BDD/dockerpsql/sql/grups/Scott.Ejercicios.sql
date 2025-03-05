@@ -97,7 +97,7 @@ INSERT INTO emp VALUES
 
 /* Funciones de grupo */
 
-/* Calcula el salari total mensual */
+/* 1. Calcula el salari total mensual */
 
 SELECT SUM(sal) "Salari total mensual"
   FROM emp;
