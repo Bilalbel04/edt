@@ -70,3 +70,4 @@ hay una coincidencia en la tabla de la izquierda o derecha.
 SELECT columnas
 FROM tabla1
 FULL JOIN tabla2 ON tabla1.columna_comun = tabla2.columna_comun;
+
