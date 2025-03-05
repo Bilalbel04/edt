@@ -94,3 +94,4 @@ INSERT INTO emp VALUES
 
 /* Canviar la data de l'empleat SCOTT per la d'avui. */
 
+
