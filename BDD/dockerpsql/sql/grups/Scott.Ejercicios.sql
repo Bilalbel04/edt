@@ -114,4 +114,3 @@ SELECT COUNT(comm) "Nombre empleados con comisión", AVG(comm) "Media comisión"
 SELECT job "Ocupació", MIN(sal) "SAL MIN", MAX(sal) "SAL MAX"
   FROM emp 
   GROUP BY job;
-
