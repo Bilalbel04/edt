@@ -76,3 +76,11 @@ INSERT INTO salgrade VALUES
 ALTER TABLE  emp ADD CONSTRAINT emp_deptno_fk FOREIGN KEY (deptno) REFERENCES dept;
 ALTER TABLE  emp ADD CONSTRAINT emp_mgr_fk FOREIGN KEY (mgr) REFERENCES emp;
 
+
+/* Inserir en la taula DEPT la informació corresponent a un nou departament 
+de consultoria, de codi 50 i que estigui ubicat a SANTANDER. Per a l'ocasió 
+creeu la seqüència deptno_seq (la qual començarà en 50 i s'incrementarà de 
+10 en 10) i la utilitzeu per la sentència SQL. */
+
+INSERT INTO dept VALUES (nextval('deptno_seq'), 'CONSULTORIA', 'SANTANDER');
+
