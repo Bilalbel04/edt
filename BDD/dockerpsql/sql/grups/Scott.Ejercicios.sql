@@ -112,5 +112,6 @@ SELECT COUNT(comm) "Nombre empleados con comisión", AVG(comm) "Media comisión"
 /* 43. Mostreu el salari, mínim i màxim dels empleats, agrupats per ocupació. */
 
 SELECT job "Ocupació", MIN(sal) "SAL MIN", MAX(sal) "SAL MAX"
-  FROM emp
- GROUP BY 
+  FROM emp 
+  GROUP BY job;
+
