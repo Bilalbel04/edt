@@ -71,3 +71,12 @@ SELECT columnas
 FROM tabla1
 FULL JOIN tabla2 ON tabla1.columna_comun = tabla2.columna_comun;
 
+
+
+Inserir en la taula DEPT la informació corresponent a un nou departament de 
+consultoria, de codi 50 i que estigui ubicat a SANTANDER. 
+Per a l'ocasió creeu la seqüència deptno_seq (la qual començarà en 50 
+i s'incrementarà de 10 en 10) i la utilitzeu per la sentència SQL.
+
+Tabla tablasScott_v1.0.sql
+
