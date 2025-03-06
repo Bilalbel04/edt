@@ -22,3 +22,5 @@ emoji8="💥"
 # y el cifrado simétrico AES-256-CBC
 
 # Función para cifrar
+cifrar() {
+    echo -
