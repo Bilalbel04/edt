@@ -109,4 +109,4 @@ esac
 
 # Fin del script
 
-# Ahora sera un chat en donde se mande a los equipos en la habitacion. 
+# Ahora sera un chat en donde se mande a los equipos en la habitacion. En cuanto
