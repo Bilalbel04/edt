@@ -42,4 +42,9 @@ descifrar() {
 # Función para enviar mensaje
 enviar() {
     echo -e "${emoji1}${azul}Introduce el mensaje a enviar:${reset}"
+    read mensaje
+    echo -e "${emoji1}${azul}Introduce la contraseña para cifrar:${reset}"
+    read -s pass
+    echo -e "${emoji1}${azul}Cifrando...${reset}"
+    mensaje_cifrado=$(echo $mensaje | openssl enc -aes-256-cbc -a -salt -pass pass:$pass)
     
