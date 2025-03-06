@@ -64,7 +64,7 @@ enviar() {
 
 # Función para recibir mensaje 
 recibir() {
-    echo -e "${emoji2}${azul}Introduce el mensaje cifrado:${reset}"
+echo -e "${emoji2}${azul}Introduce el mensaje cifrado:${reset}"
     read mensaje
     echo -e "${emoji2}${azul}Introduce la contraseña para descifrar:${reset}"
     read -s pass
@@ -75,4 +75,6 @@ recibir() {
     read mensaje
     echo -e "${emoji2}${azul}Introduce la contraseña para cifrar:${reset}"
     read -s pass
+    echo -e
+    
     
