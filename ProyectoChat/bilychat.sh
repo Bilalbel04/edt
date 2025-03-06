@@ -18,4 +18,4 @@ emoji6="👀"
 emoji7="🔥"
 emoji8="💥"
 
-# Script para 
+# Script para hacer el chat cifrado con openssl 
