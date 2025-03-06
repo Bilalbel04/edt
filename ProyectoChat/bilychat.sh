@@ -11,3 +11,5 @@ reset="\033[0m"
 # Variables emojis necesarios para el chat
 emoji1="👉"
 emoji2="👈"
+emoji3="👍"
+emoji4="👎"
