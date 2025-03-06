@@ -51,4 +51,5 @@ enviar() {
     echo -e "${emoji1}${azul}Introduce la contraseña para descifrar:${reset}"
     read -s pass
     echo -e "${emoji1}${azul}Descifrando...${reset}"
+    mensaje_descifrado=$(echo $mensaje_cifrado | openssl enc -aes-256-cbc -a -d -salt -pass pass:$pass)
     
