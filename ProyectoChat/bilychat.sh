@@ -63,3 +63,5 @@ enviar() {
 }
 
 # Función para recibir mensaje 
+recibir() {
+    echo -e 
