@@ -41,5 +41,5 @@ descifrar() {
 
 # Función para enviar mensaje
 enviar() {
-    echo -e "$${azul}Introduce el mensaje a enviar:${reset}"
+    echo -e "$emoji1"${azul}Introduce el mensaje a enviar:${reset}"
     
