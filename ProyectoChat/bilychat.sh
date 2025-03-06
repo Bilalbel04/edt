@@ -19,3 +19,6 @@ emoji7="🔥"
 emoji8="💥"
 
 # Script para hacer el chat cifrado con openssl 
+# y el cifrado simétrico AES-256-CBC
+
+# Función para cifrar
