@@ -110,4 +110,4 @@ esac
 # Fin del script
 
 # Ahora sera un chat en donde se mande a los equipos en la habitacion. En cuanto
-# inicias el script, te pedira un nu
+# inicias el script, te pedira un nombre de habitacion. 
