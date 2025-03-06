@@ -39,3 +39,6 @@ descifrar() {
     read -s pass
     echo -e
 
+    echo -e "${azul}Descifrando...${reset}"
+
+    
