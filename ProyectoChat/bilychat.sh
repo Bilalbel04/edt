@@ -38,3 +38,5 @@ descifrar() {
     echo $mensaje | openssl enc -aes-256-cbc -a -d -salt -pass pass:$pass
 
 }
+
+# Función para enviar mensaje
