@@ -8,3 +8,5 @@ azul="\033[1;34m"
 blanco="\033[1;37m"
 reset="\033[0m"
 
+# Variables emojis necesarios para el chat
+emoji1="👉
