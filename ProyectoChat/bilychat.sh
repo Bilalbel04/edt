@@ -32,3 +32,10 @@ cifrar() {
 }
 
 # Función para descifrar
+descifrar() {
+    echo -e "${azul}Introduce el mensaje a descifrar:${reset}"
+    read mensaje
+    echo -e "${azul}Introduce la contraseña para descifrar:${reset}"
+    read -s pass
+    echo -e
+
