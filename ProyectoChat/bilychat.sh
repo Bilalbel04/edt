@@ -117,3 +117,5 @@ esac
 # Es decir, cada nombre de habitacion, por los caracteres o algo, debe sacar un 
 # numero de puerto unico por nombre. 
 
+# El chat se hara con netcat, y se hara un chat en donde se pueda enviar mensajes
+
