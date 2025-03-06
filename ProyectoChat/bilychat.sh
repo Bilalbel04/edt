@@ -11,10 +11,6 @@ reset="\033[0m"
 # Variables emojis necesarios para el chat
 emoji1="👉"
 emoji2="👈"
-emoji3="👍"
-emoji6="👀"
-emoji7="🔥"
-emoji8="💥"
 
 # Script para hacer el chat cifrado con openssl 
 # y el cifrado simétrico AES-256-CBC
