@@ -55,4 +55,7 @@ enviar() {
     echo -e "${emoji1}${azul}Mensaje descifrado: ${reset}${mensaje_descifrado}"
     echo -e "${emoji1}${azul}Introduce el mensaje cifrado:${reset}"
     read mensaje
+    echo -e "${emoji1}${azul}Introduce la contraseña para descifrar:${reset}"
+    read -s pass
+    echo -e "${emoji1}${azul}Descifrando...${reset}"
     
