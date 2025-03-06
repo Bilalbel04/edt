@@ -9,4 +9,5 @@ blanco="\033[1;37m"
 reset="\033[0m"
 
 # Variables emojis necesarios para el chat
-emoji1="👉
+emoji1="👉"
+emoji2="👈"
