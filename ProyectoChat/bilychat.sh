@@ -108,7 +108,3 @@ case $opcion in
 esac
 
 # Fin del script
-``` 
-
-## 4. Ejecución del script
-
