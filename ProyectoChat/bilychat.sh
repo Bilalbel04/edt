@@ -47,4 +47,4 @@ enviar() {
     read -s pass
     echo -e "${emoji1}${azul}Cifrando...${reset}"
     mensaje_cifrado=$(echo $mensaje | openssl enc -aes-256-cbc -a -salt -pass pass:$pass)
-    
+    echo -e 
