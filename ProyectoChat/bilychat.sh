@@ -111,4 +111,4 @@ esac
 
 # Ahora sera un chat en donde se mande a los equipos en la habitacion. En cuanto
 # inicias el script, te pedira un nombre de habitacion. Entonces, se asignara 
-# un puerto, 
+# un puerto, tiene que haber una referencia 
