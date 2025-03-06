@@ -64,4 +64,15 @@ enviar() {
 
 # Función para recibir mensaje 
 recibir() {
-    echo -e 
+    echo -e "${emoji2}${azul}Introduce el mensaje cifrado:${reset}"
+    read mensaje
+    echo -e "${emoji2}${azul}Introduce la contraseña para descifrar:${reset}"
+    read -s pass
+    echo -e "${emoji2}${azul}Descifrando...${reset}"
+    mensaje_descifrado=$(echo $mensaje | openssl enc -aes-256-cbc -a -d -salt -pass pass:$pass)
+    echo -e "${emoji2}${azul}Mensaje descifrado: ${reset}${mensaje_descifrado}"
+    echo -e "${emoji2}${azul}Introduce el mensaje a enviar:${reset}"
+    read mensaje
+    echo -e "${emoji2}${azul}Introduce la contraseña para cifrar:${reset}"
+    read -s pass
+    
