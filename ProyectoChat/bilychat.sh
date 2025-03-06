@@ -81,4 +81,26 @@ echo -e "${emoji2}${azul}Introduce el mensaje cifrado:${reset}"
 }
 
 # Menú principal
-    
+    echo -e "${azul}Bienvenido a BilyChat${reset}"
+echo -e "${azul}Selecciona una opción:${reset}"
+echo -e "${azul}1. Cifrar mensaje${reset}"
+echo -e "${azul}2. Descifrar mensaje${reset}"
+echo -e "${azul}3. Enviar mensaje${reset}"
+echo -e "${azul}4. Recibir mensaje${reset}"
+read opcion
+
+case $opcion in
+    1)
+        cifrar
+        ;;
+    2)
+        descifrar
+        ;;
+    3)
+        enviar
+        ;;
+    4)
+        recibir
+        ;;
+    *)
+        echo -e "${rojo}Opción no válida${reset}"
