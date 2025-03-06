@@ -62,4 +62,4 @@ enviar() {
     echo -e "${emoji1}${azul}Mensaje descifrado: ${reset}${mensaje_descifrado}"
 }
 
-# Función para recibir mensaje
+# Función para recibir mensaje 
