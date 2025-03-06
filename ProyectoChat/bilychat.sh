@@ -119,4 +119,4 @@ esac
 
 # El chat se hara con netcat, y se hara un chat en donde se pueda enviar mensajes
 
-
+# Se hara un chat en donde se pueda enviar mensajes cifrados, y se podra enviar
