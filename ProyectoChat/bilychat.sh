@@ -118,5 +118,4 @@ esac
 # numero de puerto unico por nombre. 
 
 # El chat se hara con netcat, y se hara un chat en donde se pueda enviar mensajes
-# cifrados y descifrados.
 
