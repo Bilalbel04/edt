@@ -71,10 +71,14 @@ echo -e "${emoji2}${azul}Introduce el mensaje cifrado:${reset}"
     echo -e "${emoji2}${azul}Descifrando...${reset}"
     mensaje_descifrado=$(echo $mensaje | openssl enc -aes-256-cbc -a -d -salt -pass pass:$pass)
     echo -e "${emoji2}${azul}Mensaje descifrado: ${reset}${mensaje_descifrado}"
-    echo -e "${emoji2}${azul}Introduce el mensaje a enviar:${reset}"
+    echo -e "${emoji2}${azul}Introduce el mensaje a cifrar:${reset}"
     read mensaje
     echo -e "${emoji2}${azul}Introduce la contraseña para cifrar:${reset}"
     read -s pass
-    echo -e
-    
+    echo -e "${emoji2}${azul}Cifrando...${reset}"
+    mensaje_cifrado=$(echo $mensaje | openssl enc -aes-256-cbc -a -salt -pass pass:$pass)
+    echo -e "${emoji2}${azul}Mensaje cifrado: ${reset}${mensaje_cifrado}"
+}
+
+# Menú principal
     
