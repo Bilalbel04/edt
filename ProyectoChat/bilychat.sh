@@ -23,4 +23,12 @@ emoji8="💥"
 
 # Función para cifrar
 cifrar() {
-    echo -
+    echo -e "${azul}Introduce el mensaje a cifrar:${reset}"
+    read mensaje
+    echo -e "${azul}Introduce la contraseña para cifrar:${reset}"
+    read -s pass
+    echo -e "${azul}Cifrando...${reset}"
+    echo $mensaje | openssl enc -aes-256-cbc -a -salt -pass pass:$pass
+}
+
+# Función para descifrar
