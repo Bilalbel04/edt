@@ -104,3 +104,6 @@ case $opcion in
         ;;
     *)
         echo -e "${rojo}Opción no válida${reset}"
+
+esac
+
