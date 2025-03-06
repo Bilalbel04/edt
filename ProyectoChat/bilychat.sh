@@ -16,4 +16,6 @@ emoji4="👎"
 emoji5="👏"
 emoji6="👀"
 emoji7="🔥"
-emoji8="💥
+emoji8="💥"
+
+# 
