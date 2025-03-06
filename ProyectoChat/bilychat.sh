@@ -108,3 +108,5 @@ case $opcion in
 esac
 
 # Fin del script
+
+# Ahora sera un chat en donde se mande a los equipos en la habitacion. 
