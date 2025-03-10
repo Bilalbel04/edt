@@ -7,7 +7,7 @@ de crèdit del client.*/
 SELECT pednum, importe, nombre, limcred
 from pedido p JOIN cliente c ON p.cliecod=c.cliecod;
 
-
+sdsd
 /*  Obtenir una llista de representants ordenada alfabèticament,
 en què es mostri el nom del representant, codi de la
 oficina on treballa, ciutat i la regió on ven.*/
