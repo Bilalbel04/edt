@@ -17,5 +17,3 @@ port=$(generate_port "$room")
 
 echo "La habitación '$room' tiene el puerto: $port"
 
-# Iniciar el servidor en el puerto generado
-nc -l -p "$port"
