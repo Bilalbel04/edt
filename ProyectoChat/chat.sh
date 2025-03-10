@@ -17,3 +17,7 @@ port=$(generate_port "$room")
 
 echo "La habitación '$room' tiene el puerto: $port"
 
+
+
+
+
