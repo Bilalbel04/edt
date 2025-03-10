@@ -1,0 +1,132 @@
+Informe RA4
+
+
+
+
+
+
+
+
+
+
+
+
+Bilal Balghouch El Gourari
+Informe RA4
+Profesor 
+Index
+Sessió 4.1, ACT 4.1: Estructura client/servidor. Protocol LDAP. Concepte de domini. Subdominis. Requisits necessaris per muntar un domini.	3
+Sessió 4.2, ACT 4.2: Administració de comptes. Comptes predeterminats. Administració de grups. Tipus. Grups predeterminats. Comptes d’usuari i equips.	4
+Sessió 4.3, ACT 4.3: Contrasenyes. Bloquejos de comptes. Perfils mòbils i obligatoris. Carpetes personals.	5
+Sessió 4.4, ACT 4.4: Plantilles d’usuari. Variables d’entorn. Estratègies d’imbricació (disseny del bosc).	6
+
+Sessió 4.1, ACT 4.1: Estructura client/servidor. Protocol LDAP. Concepte de domini. Subdominis. Requisits necessaris per muntar un domini.
+
+¿Qué es una estructura cliente/servidor?  
+Es un modelo de comunicación en redes donde un dispositivo (cliente) solicita servicios o recursos a otro dispositivo (servidor), que procesa la solicitud y responde. El servidor gestiona recursos y datos, mientras que los clientes solo los consumen. Se pueden añadir más clientes o servidores según la demanda. Los datos y permisos se administran desde el servidor. 
+
+
+
+¿Qué hace el protocolo LDAP?  
+Lightweight Directory Access Protocol es un protocolo que permite acceder y gestionar servicios de directorio de manera eficiente. Se usa principalmente para autenticación y gestión de usuarios en redes corporativas. Permite a los usuarios iniciar sesión en sistemas centralizados, como Active Directory (AD). Almacena y organiza información de usuarios. Permite definir qué usuarios pueden acceder a ciertos recursos en la red. Se utiliza en combinación con Kerberos, Single Sign-On (SSO) y otros protocolos de autenticación.
+
+
+
+¿Qué es el protocolo Kerberos? ¿Cómo interactúa con LDAP?  
+Es un protocolo de autenticación basado en tickets que permite a los usuarios acceder a servicios en una red de manera segura, sin necesidad de enviar contraseñas en texto plano. 
+
+El usuario ingresa su usuario y contraseña
+El cliente envía una solicitud cifrada al KDC (Key Distribution Center), que está en el Controlador de Dominio (DC) de AD.
+El KDC verifica las credenciales y emite un TGT
+Este TGT permite solicitar acceso a servicios sin reenviar la contraseña.
+cuando el usuario necesita acceder a un recurso (ej. una carpeta compartida), el cliente usa el TGT para solicitar un Ticket de Servicio (TGS).
+El servidor del recurso verifica el ticket y permite el acceso sin pedir credenciales nuevamente
+
+
+
+
+¿Qué son un dominio y un subdominio en una red Microsoft AD?  
+Dominio:
+Es una unidad administrativa centralizada que agrupa una serie de objetos, como usuarios, equipos, grupos y otros recursos, bajo un mismo conjunto de reglas de seguridad y administración. Permite gestionar y controlar el acceso a estos objetos. Se usan políticas, permisos y configuraciones que afectan a todos los objetos dentro de él.
+
+Subdominio:
+Subdominio es una subdivisión jerárquica de un dominio en Active Directory. Los subdominios se utilizan para representar diferentes zonas o áreas dentro de una organización. Cada subdominio tiene su propio conjunto de controladores de dominio y puede tener políticas y configuraciones específicas, pero sigue formando parte del mismo dominio principal (el dominio raíz). 
+
+En la siguiente imagen podemos ver un ejemplo de dominio y subdominio. mcgrawhill.es es el dominio raíz, mientras que editorial.mcgrawhill.es y compras.mcgrawhill.es son los subdominios, estos podrían ser departamentos distintos que necesitan estar separados ya que quizá en el departamento de compras necesitan algún privilegio que otros departamentos no necesitan ni deberían tener.
+
+
+
+
+¿Cuáles son los requisitos de red para la instalación?  
+
+
+Diferencia entre subdominios y árboles del bosque.  
+
+¿Para qué sirve tener más de un DC? ¿Más de un subdominio? ¿Y más de un árbol?  
+
+
+
+
+
+
+Sessió 4.2, ACT 4.2: Administració de comptes. Comptes predeterminats. Administració de grups. Tipus. Grups predeterminats. Comptes d’usuari i equips. 
+
+¿Para qué sirve la consola de "Server Manager"?  
+
+¿Qué muestra la consola ADUC? (Active Directory Users & Computers)  
+
+Lista 10 atributos que no se solicitan al momento de crear un usuario pero que se pueden completar después.  
+
+¿Qué diferencia hay entre un usuario de dominio y un usuario local?  
+
+¿Qué diferencia hay entre un grupo local, un grupo global, un grupo local de dominio y un grupo universal? ¿Qué puede contener cada uno de estos grupos?  
+
+¿Para qué dos funciones principales hemos dicho que tiene sentido crear OUs?  
+¿Dónde se guardan por defecto las cuentas de usuario, de equipo, de grupo o de los diferentes tipos de servidor dentro del AD?  
+
+¿Cuál es la diferencia entre contenedores y unidades organizativas?  
+
+
+
+
+
+Sessió 4.3, ACT 4.3: Contrasenyes. Bloquejos de comptes. Perfils mòbils i obligatoris. Carpetes personals.
+
+Instala un Windows Server (o utiliza uno ya instalado) y configúralo para crear un Directorio Activo. Crea el dominio NomDelAlumno.local. Configura el DNS Forwarder y la zona inversa. Muestra imágenes de la meta alcanzada.  
+
+¿Qué se necesita para crear un AD?  
+
+¿Cuáles son los requisitos para promocionar un Windows Server como FRDC?  
+
+¿Qué son los roles de servidor? ¿Qué roles necesitamos para crear el AD?  
+
+¿Cuáles son las normas que debe cumplir una contraseña segura en Microsoft?  
+
+¿Cómo se recupera una contraseña bloqueada? (muestra imágenes)  
+
+¿Para qué sirven los perfiles móviles y los perfiles obligatorios?  
+
+Diferencia entre carpetas personales y perfiles móviles.  
+
+Copia los enlaces que has utilizado para responder a estas preguntas.  
+
+
+
+
+Sessió 4.4, ACT 4.4: Plantilles d’usuari. Variables d’entorn. Estratègies d’imbricació (disseny del bosc). 
+
+¿Para qué sirve crear plantillas de usuarios y hasta qué punto son una ayuda en la administración del sistema?  
+
+Busca 3 variables de entorno creadas en el AD que encuentres útiles y explica por qué lo crees.  
+
+Preguntas finales:  
+¿Cómo se añade un nuevo árbol a un bosque existente?  
+
+¿Cuáles son los roles que debe tener un FSMO?  
+
+¿Cuál es la utilidad de un PDF emulator y un GC?  
+
+¿Por qué no conviene que un FSMO sea Global Catalog?  
+
+
+
