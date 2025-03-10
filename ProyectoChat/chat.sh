@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Función para generar un número de puerto a partir del nombre de la habitación
+# Función para generar  número de puerto a partir del nombre de la habitación
 generate_port() {
     local room_name="$1"
     local hash
