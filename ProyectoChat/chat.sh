@@ -16,3 +16,4 @@ read -p "Introduce el nombre de la habitación: " room
 port=$(generate_port "$room")
 
 echo "La habitación '$room' tiene el puerto: $port"
+
